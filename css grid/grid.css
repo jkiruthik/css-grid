@@ -2,11 +2,15 @@
     background-color: bisque;
 }
 .image{
-    height:100px;
-    width:100px;
+    height:300px;
+    width:300px;
 }
-body{
-    display:grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 10px;
+#actors{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,310px);
+    grid-template-rows: repeat(3,310px);
+    grid-gap: 20px;
+    
 }
